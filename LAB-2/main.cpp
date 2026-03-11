@@ -62,11 +62,11 @@ int main()
 {
 	Node* head = nullptr;
 
-
+    cout << "Kelime silmek icin UNDO yaziniz." << endl << "Programdan cikmak icin EXIT yaziniz." << endl;
     string input;
 
     while (true) {
-        cout << "Kelime silmek icin UNDO yaziniz. Kelime gir: ";
+        cout <<"Kelime gir: ";
         cin >> input;
 
         if (input == "EXIT") {
