@@ -1,11 +1,11 @@
-#include iostream
+#include <iostream>
 #include <string>
 
 using namespace std;
 
 
 struct Node {
-	string veri; 
+	string veri;
 	Node* sonraki;
 
 	Node(string v) {
