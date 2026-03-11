@@ -7,6 +7,11 @@ using namespace std;
 struct Node {
 	string veri; 
 	Node* sonraki;
+
+	Node(string v) {
+		veri = v;
+		sonraki = nullptr;
+	}
 };
 
 
