@@ -7,7 +7,8 @@ struct Song {
 string title , artist;
 int ratings [3];
 
-
+Song *next;
+Song *prev;
 };
 
 
