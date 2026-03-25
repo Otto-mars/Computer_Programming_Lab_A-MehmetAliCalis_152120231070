@@ -2,7 +2,13 @@
 
 using namespace std;
 
+struct Song {
 
+string title , artist;
+int ratings [3];
+
+
+};
 
 
 
